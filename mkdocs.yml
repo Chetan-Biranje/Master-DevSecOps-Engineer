@@ -1,5 +1,18 @@
-# AppSec Career Roadmap — GitHub Pages site
+name: AppSec Career Roadmap
+site_name: AppSec Career Roadmap
+nav:
+  - Home: index.md
+  - README: ../README.md
+  - Daily Routine: ../DAILY_ROUTINE.md
+  - Phases:
+      - Phase 1: phases/phase1-proof.md
+      - Phase 2: phases/phase2-depth.md
+      - Phase 3: phases/phase3-offensive.md
+  - Resources:
+      - Certifications: resources/certifications.md
 
-This repository contains a learning roadmap. This commit adds an mkdocs site to publish the roadmap as GitHub Pages.
+theme:
+  name: material
 
-Site generated with MkDocs material.
+plugins:
+  - search
